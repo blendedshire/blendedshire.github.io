@@ -1,0 +1,38 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "The Blended Shire"
+description: ""
+
+email: hi@blendedshire.com
+logo: "/assets/images/logo.jpg"
+cover: "/assets/images/cover.jpg"
+
+paginate:	5
+
+url: "http://blendedshire.com"
+baseurl: ""
+# used to display twitter cards
+twitter_handle: '@blendedshire'
+
+# fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-108837157-1
+exclude: [vendor]
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/blendedshire
+    desc: Follow us on Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	instagram
+    url:	https://instagram.com/blendedshire
+    desc:	Follow us on Instagram
